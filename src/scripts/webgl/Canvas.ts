@@ -1,7 +1,7 @@
 import * as THREE from 'three'
 import { three } from './core/Three'
-import fragmentShader from './shader/fragmentShader.glsl'
-import vertexShader from './shader/vertexShader.glsl'
+import fragmentShader from './shader/screen.frag'
+import vertexShader from './shader/screen.vert'
 import { gui } from './Gui'
 
 export class Canvas {

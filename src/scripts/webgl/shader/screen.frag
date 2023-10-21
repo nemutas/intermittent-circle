@@ -38,7 +38,7 @@ void main() {
   uv = rot(angle) * uv;
   uv /= aspect;
   uv *= uScale;
-  uv += 0.5; 
+  uv += 0.5;
 
   vec3 color = texture2D(tImage, uv).rgb;
   gl_FragColor = vec4(color, 1.0);
